@@ -6,9 +6,9 @@ The idea of my Setup is to make myself independent of a working internet connect
 Feel free to contact me on matrix (@haui:matrix.giftedmc.com) or on mastodon (@haui@mastodon.giftedmc.com) if you have further questions or need help with your setup.
 
 ## Home Network
-- BerryTV (RaspberryPi)
-  - LibeELEC
-    - Kodi
+- BerryTV (RaspberryPi, replaces appleTV)
+  - LibeELEC (lightweight OS that only houses kodi)
+    - Kodi (media client/server with muliple purposes)
 - Server
   - Docker
     - Pihole
