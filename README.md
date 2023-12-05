@@ -9,26 +9,25 @@ Feel free to contact me on matrix (@haui:matrix.giftedmc.com) or on mastodon (@h
 - BerryTV (RaspberryPi, replaces appleTV)
   - LibeELEC (lightweight OS that only houses kodi)
     - Kodi (media client/server with muliple purposes)
-- Server
+- Server (Xeon, 4 cores, 16 GB RAM, 8 TB HDD Raid 1, 250 GB SSD Raid 1)
   - Docker
-    - Pihole
-    - Plex
+    - Pihole (DNS Server, Network wide Ad Block)
+    - Plex (Replaces Disney+, Netflix, 100+ Archived DVDs and BDs)
       - Movies
       - Series
-      - Pictures
-    - Heimdall
-    - Nginx Proxy Manager
-    - SuiteCRM
-    - Portainer
-    - Bitwarden
-    - Nextcloud
+    - Heimdall (Dashboard, Replaces Google/Firefox default screen)
+    - Nginx Proxy Manager (Reverse Proxy, enables SSL for all apps)
+    - SuiteCRM (Customer relationship management software)
+    - Portainer (Docker container management tool)
+    - Bitwarden (Password vault)
+    - Nextcloud (Replaces icloud, google cloud)
       - Tasks
       - Calendar
       - Pictures
-    - Home Assistant
+    - Home Assistant (replaces amazon home, google home)
       - Heating
       - Lights
-    - Tig-Stack (Telegraf, Influxdb, Grafana)
+    - Tig-Stack (Telegraf, Influxdb, Grafana) monitoring solution
 ## Online
 - Minecraft Server
   - Player Analytics
@@ -38,11 +37,11 @@ Feel free to contact me on matrix (@haui:matrix.giftedmc.com) or on mastodon (@h
     - Heimdall
     - Nginx Proxy Manager
     - Portainer
-    - Mastodon
-    - Lemmy
-    - Matrix
-    - Peertube
-    - Forum
-    - Wiki
-    - Tig-Stack
+    - Mastodon (microblogging plaform of the fediverse, replaces twitter)
+    - Lemmy (social forum of the fediverse, replaces reddit)
+    - Matrix (chat platform of the fediverse, replaces discord, whatsapp, telegram, signal)
+    - Peertube (video platform of the fediverse, replaces youtube)
+    - nodebb (forum)
+    - Wiki.js (wiki)
+    - Tig-Stack (monitoring)
 - Cloud Backup 
