@@ -6,10 +6,12 @@ The idea of my Setup is to make myself independent of a working internet connect
 Feel free to contact me on matrix (@haui:matrix.giftedmc.com) or on mastodon (@haui@mastodon.giftedmc.com) if you have further questions or need help with your setup.
 
 ## Home Network
-- "PiTV" ([RaspberryPi](https://www.raspberrypi.com/), replaces appleTV)
-  - [LibeELEC](https://libreelec.tv/) ([Source Code](https://github.com/LibreELEC/LibreELEC.tv/)) (lightweight OS that only houses kodi)
-    - [Kodi](https://kodi.tv/) ([Source Code](https://github.com/xbmc/xbmc)) (media client/server with muliple purposes)
-- Home Server (Xeon, 4 cores, 16 GB RAM, 8 TB HDD Raid 1, 250 GB SSD Raid 1)
+### "PiTV" 
+[RaspberryPi](https://www.raspberrypi.com/), replaces appleTV
+- [LibeELEC](https://libreelec.tv/) ([Source Code](https://github.com/LibreELEC/LibreELEC.tv/)) (lightweight OS that only houses kodi)
+  - [Kodi](https://kodi.tv/) ([Source Code](https://github.com/xbmc/xbmc)) (media client/server with muliple purposes)
+### Home Server 
+Intel Xeon, 4 cores, 16 GB RAM, 8 TB HDD Raid 1, 2x 250GB SSDs @ Raid 1
   - Docker
     - Pihole (DNS Server, Network wide Ad Block)
     - Plex (Replaces Disney+, Netflix, 100+ Archived DVDs and BDs)
@@ -19,17 +21,22 @@ Feel free to contact me on matrix (@haui:matrix.giftedmc.com) or on mastodon (@h
     - Nginx Proxy Manager (Reverse Proxy, enables SSL for all apps)
     - SuiteCRM (Customer relationship management software)
     - Portainer (Docker container management tool)
-    - Bitwarden (Password vault)
+    - Vaultwarden (Password vault, open source version of bitwarden)
     - Nextcloud (Replaces icloud, google cloud)
       - Tasks
       - Calendar
       - Pictures
+      - Notes
+      - Bookmarks
     - Home Assistant (replaces amazon home, google home)
       - Heating
       - Lights
-    - Tig-Stack (Telegraf, Influxdb, Grafana) monitoring solution
+    - Tig-Stack (Monitoring solution)
+      - Telegraf (collects data from any source)
+      - Influxdb (fast and versatile database)
+      - Grafana (shows beautiful graphs)
 ## Online
-- Minecraft Server
+- Minecraft Server (server.gifted-minecraft.com)
   - Player Analytics
   - Dynamic Map
 - VPS
