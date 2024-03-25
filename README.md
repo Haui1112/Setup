@@ -6,10 +6,10 @@ The idea of my Setup is to make myself independent of a working internet connect
 Feel free to contact me on matrix (@haui:matrix.giftedmc.com) or on mastodon (@haui@mastodon.giftedmc.com) if you have further questions or need help with your setup.
 
 ## Home Network
-- BerryTV (RaspberryPi, replaces appleTV)
-  - LibeELEC (lightweight OS that only houses kodi)
-    - Kodi (media client/server with muliple purposes)
-- Server (Xeon, 4 cores, 16 GB RAM, 8 TB HDD Raid 1, 250 GB SSD Raid 1)
+- "PiTV" ([RaspberryPi](https://www.raspberrypi.com/), replaces appleTV)
+  - [LibeELEC](https://libreelec.tv/) ([Source Code](https://github.com/LibreELEC/LibreELEC.tv/)) (lightweight OS that only houses kodi)
+    - [Kodi](https://kodi.tv/) ([Source Code](https://github.com/xbmc/xbmc)) (media client/server with muliple purposes)
+- Home Server (Xeon, 4 cores, 16 GB RAM, 8 TB HDD Raid 1, 250 GB SSD Raid 1)
   - Docker
     - Pihole (DNS Server, Network wide Ad Block)
     - Plex (Replaces Disney+, Netflix, 100+ Archived DVDs and BDs)
