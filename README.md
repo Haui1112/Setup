@@ -7,48 +7,56 @@ Feel free to contact me on matrix (@haui:matrix.giftedmc.com) or on mastodon (@h
 
 ## Home Network
 ### "PiTV" 
-[RaspberryPi](https://www.raspberrypi.com/), replaces appleTV
-- [LibeELEC](https://libreelec.tv/) ([Source Code](https://github.com/LibreELEC/LibreELEC.tv/)) (lightweight OS that only houses kodi)
-  - [Kodi](https://kodi.tv/) ([Source Code](https://github.com/xbmc/xbmc)) (media client/server with muliple purposes)
+[**RaspberryPi**](https://www.raspberrypi.com/), replaces appleTV
+- [**LibeELEC**](https://libreelec.tv/) ([Source Code](https://github.com/LibreELEC/LibreELEC.tv/)) (lightweight OS that only houses kodi)
+  - [**Kodi**](https://kodi.tv/) ([Source Code](https://github.com/xbmc/xbmc)) (media client/server with muliple purposes)
 ### Home Server 
-Intel Xeon, 4 cores, 16 GB RAM, 8 TB HDD Raid 1, 2x 250GB SSDs @ Raid 1
-  - Docker
-    - Pihole (DNS Server, Network wide Ad Block)
-    - Plex (Replaces Disney+, Netflix, 100+ Archived DVDs and BDs)
+Intel Xeon, 4 cores, 16 GB RAM, 8 TB WD RED HDD Raid 1, 2x 250GB SSDs @ Raid 1
+  - [**Docker**](https://www.docker.com/) [Source Code](https://www.docker.com/community/open-source/)
+    - [**Pihole**](https://pi-hole.net/) [Source Code](https://github.com/pi-hole/pi-hole) (DNS Server, Network wide Ad Block)
+    - [**Plex**](https://www.plex.tv/) [Source Code]() (Replaces Disney+, Netflix, 100+ Archived DVDs and BDs)
       - Movies
       - Series
-    - Heimdall (Dashboard, Replaces Google/Firefox default screen)
-    - Nginx Proxy Manager (Reverse Proxy, enables SSL for all apps)
-    - SuiteCRM (Customer relationship management software)
-    - Portainer (Docker container management tool)
-    - Vaultwarden (Password vault, open source version of bitwarden)
-    - Nextcloud (Replaces icloud, google cloud)
+    - [**Heimdall**](https://heimdall.site/) [(Source Code)](https://github.com/linuxserver/Heimdall) (Dashboard, Replaces Google/Firefox default screen)
+    - [**Nginx Proxy Manager**](https://nginxproxymanager.com/) [(Source Code)](https://github.com/NginxProxyManager/nginx-proxy-manager) (Reverse Proxy, enables SSL for all apps)
+    - [**SuiteCRM**](https://suitecrm.com/) [(Source Code)](https://github.com/salesagility/SuiteCRM) (Customer relationship management software)
+    - [**Portainer**](https://github.com/salesagility/SuiteCRM) [(Source Code)](https://github.com/salesagility/SuiteCRM) (Docker container management tool)
+    - [**Vaultwarden**](https://www.vaultwarden.net/) [(Source Code)](https://github.com/dani-garcia/vaultwarden) (Password vault, open source version of bitwarden)
+    - [**Nextcloud**](https://nextcloud.com/) [(Source Code)](https://github.com/nextcloud) (Replaces icloud, google cloud)
       - Tasks
       - Calendar
       - Pictures
       - Notes
       - Bookmarks
-    - Home Assistant (replaces amazon home, google home)
+    - [**Home Assistant**](https://www.home-assistant.io/) [(Source Code)](https://github.com/home-assistant) (replaces amazon home, google home)
       - Heating
       - Lights
-    - Tig-Stack (Monitoring solution)
-      - Telegraf (collects data from any source)
-      - Influxdb (fast and versatile database)
-      - Grafana (shows beautiful graphs)
-## Online
-- Minecraft Server (server.gifted-minecraft.com)
-  - Player Analytics
-  - Dynamic Map
-- VPS
-  - Docker
-    - Heimdall
-    - Nginx Proxy Manager
-    - Portainer
-    - Mastodon (microblogging plaform of the fediverse, replaces twitter)
-    - Lemmy (social forum of the fediverse, replaces reddit)
-    - Matrix (chat platform of the fediverse, replaces discord, whatsapp, telegram, signal)
-    - Peertube (video platform of the fediverse, replaces youtube)
-    - nodebb (forum)
-    - Wiki.js (wiki)
-    - Tig-Stack (monitoring)
-- Cloud Backup 
+    - **Tig-Stack** (Monitoring solution, a collection of programs)
+      - [**Telegraf**](https://www.influxdata.com/time-series-platform/telegraf/) [(Source Code)](https://github.com/influxdata/telegraf) (collects data from any source)
+      - [**Influxdb**](https://www.influxdata.com/products/influxdb/) [(Source Code)](https://github.com/influxdata/influxdb) (fast and versatile database)
+      - [**Grafana**](https://grafana.com/) [(Source Code)](https://github.com/grafana/grafana) (shows beautiful graphs)
+    - [**Forgejo**](https://forgejo.org/) [(Source Code)](https://codeberg.org/forgejo/forgejo) (github alternative - federation being tested)
+## Online/Remote
+### Minecraft Server (Java IP: server.gifted-minecraft.com)
+  - Server Software: [**PaperMC**](https://papermc.io/) [(Source Code)](https://github.com/PaperMC)
+  - [**Dynamic Map**](https://www.spigotmc.org/resources/dynmap%C2%AE.274/) [(Source Code)](https://github.com/webbukkit/dynmap)
+### [Website (gifted-minecraft.com)](https://gifted-minecraft.com)
+  - Links to different resources
+
+### VPS
+  - [**Docker**](https://www.docker.com/) [Source Code](https://www.docker.com/community/open-source/)
+    - [**Heimdall**](https://heimdall.site/) [(Source Code)](https://github.com/linuxserver/Heimdall) (Dashboard, Replaces Google/Firefox default screen)
+    - [**Nginx Proxy Manager**](https://nginxproxymanager.com/) [(Source Code)](https://github.com/NginxProxyManager/nginx-proxy-manager) (Reverse Proxy, enables SSL for all apps)
+    - [**Portainer**](https://github.com/salesagility/SuiteCRM) [(Source Code)](https://github.com/salesagility/SuiteCRM) (Docker container management tool)
+    - [**Mastodon**](https://joinmastodon.org/) | [**Instance**](https://mastodon.giftedmc.com) [(Source Code)](https://github.com/mastodon/mastodon) (microblogging plaform of the fediverse, replaces twitter)
+    - [**Lemmy**](https://join-lemmy.org/) | [**Instance**](https://lemmy.giftedmc.com/) [(Source Code)](https://github.com/LemmyNet/lemmy) (social forum of the fediverse, replaces reddit)
+    - [**Matrix**](https://matrix.org/) | [**Instance**](https://matrix.giftedmc.com/_matrix/static/) [(Source Code)](https://github.com/element-hq/synapse) (chat platform of the fediverse, replaces discord, whatsapp, telegram, signal)
+    - [**Peertube**](https://joinpeertube.org/) | [**Instance**](https://peertube.giftedmc.com/) [(Source Code)](https://github.com/Chocobozzz/PeerTube) (video platform of the fediverse, replaces youtube)
+    - [**nodebb**](https://nodebb.org/) | [**Instance**](https://forum.giftedmc.com/) [(Source Code)](https://github.com/NodeBB/NodeBB) (forum)
+    - [**Wiki.js**](https://js.wiki/) | [**Instance**](https://wiki.giftedmc.com/) [(Source Code)](https://github.com/requarks/wiki) (wiki)
+    - **Tig-Stack** (Monitoring solution, a collection of programs)
+      - [**Telegraf**](https://www.influxdata.com/time-series-platform/telegraf/) [(Source Code)](https://github.com/influxdata/telegraf) (collects data from any source)
+      - [**Influxdb**](https://www.influxdata.com/products/influxdb/) [(Source Code)](https://github.com/influxdata/influxdb) (fast and versatile database)
+      - [**Grafana**](https://grafana.com/) [(Source Code)](https://github.com/grafana/grafana) (shows beautiful graphs)
+    - Uptime Kuma [(Source Code)]() (**public**, uptime monitor)
+### Cloud Backup 
