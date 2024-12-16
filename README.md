@@ -1,7 +1,12 @@
 # Setup
-Quick description of my Setup
+This is a description of my homelab setup
 
-The idea of my Setup is to make myself independent of a working internet connection as much as possible. The next step was the VPS, to separate myself from megacorporations as far as possible (yes, I know this platform is owned by microsoft. Please be patient). So far the newest addition is the "BerryTV" (thats how I call it since it is supposed to rid me of my apple TV). It works wonderfully as a set top box. I overdid it a lot on the ram (8 GB since I wanted to futureproof it with possible games to play over stream or something).
+Nowadays a lot of services require an online connection. My initial motivation was getting my stuff offline during covid. Thats why I build the home server. From there I started tinkering wit FOSS software, the Fediverse and a short time later single board computers and open hardware. Now I have dug down to repurposing old hardware and advancing what I call "freedom tech" which makes it possible to start using old hardware for production use again.
+
+The most important projects I am heavily invested into (both financially and ideologically) are:
+- PostmarketOS (freedom to "own" things)
+- Fediverse (freedom of speech, freedom from advertising)
+- RISC-V (freedom to make your own hardware)
 
 Feel free to contact me on matrix [(@haui:matrix.giftedmc.com)](https://matrix.to/#/@haui:matrix.giftedmc.com) or on mastodon [(@haui@mastodon.giftedmc.com)](https://mastodon.giftedmc.com/@haui) if you have further questions or need help with your setup.
 
@@ -122,6 +127,13 @@ replaces appleTV
   - Links to different resources
 
 ### VPS
+
+|Hetzner||
+|-|-|
+| Processor | AMD EPYC 2 cores @ 2,4 Ghz |
+| RAM       | 8 GB DDR 4                     |
+| Storage | 80 GB nvme ssd     |
+
   - [**Docker**](https://www.docker.com/) [Source Code](https://www.docker.com/community/open-source/)
     - [**Heimdall**](https://heimdall.site/) [(Source Code)](https://github.com/linuxserver/Heimdall) (Dashboard, Replaces Google/Firefox default screen)
     - [**Nginx Proxy Manager**](https://nginxproxymanager.com/) [(Source Code)](https://github.com/NginxProxyManager/nginx-proxy-manager) (Reverse Proxy, enables SSL for all apps)
