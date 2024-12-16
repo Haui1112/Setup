@@ -7,16 +7,34 @@ Feel free to contact me on matrix (@haui:matrix.giftedmc.com) or on mastodon (@h
 
 ## Home Network
 ### "PiTV" 
-[**RaspberryPi**](https://www.raspberrypi.com/), replaces appleTV
+[**RaspberryPi 4**](https://www.raspberrypi.com/), replaces appleTV
+
+| Hardware  |                                 |
+|-----------|---------------------------------|
+| Processor | Quad-core ARM Cortex-A72 @ 1.5 GHz |
+| RAM       | 4 GB DDR 4                     |
+| Data1     | 16 GB SD Card     |
+
 - [**LibeELEC**](https://libreelec.tv/) ([Source Code](https://github.com/LibreELEC/LibreELEC.tv/)) (lightweight OS that only houses kodi)
   - [**Kodi**](https://kodi.tv/) ([Source Code](https://github.com/xbmc/xbmc)) (media client/server with muliple purposes)
+    - **Next Gen Peertube app** ([Source Code](https://github.com/Haui1112/plugin.video.pt)) (A peertube client for kodi which i built myself in lieu of a supported version.)
 ### Home Server 
-Intel Xeon, 4 cores, 16 GB RAM, 8 TB WD RED HDD Raid 1, 2x 250GB SSDs @ Raid 1
+| Hardware  |                                 |
+|-----------|---------------------------------|
+| Processor | Intel Xeon (4 cores, 4 threads) |
+| RAM       | 16 GB DDR 3                     |
+| Data1     | 2x 8 TB WD RED HDD @ Raid 1     |
+| Docker    | 2x 250GB SSDs @ Raid 1          |
+| Data2     | 2x 16 TB Seagate X18 @ Raid 1   |
+
   - [**Docker**](https://www.docker.com/) [Source Code](https://www.docker.com/community/open-source/)
     - [**Pihole**](https://pi-hole.net/) [Source Code](https://github.com/pi-hole/pi-hole) (DNS Server, Network wide Ad Block)
-    - [**Plex**](https://www.plex.tv/) [Source Code]() (Replaces Disney+, Netflix, 100+ Archived DVDs and BDs)
+    - [**Plex**](https://www.plex.tv/) [Source Code]() (Replaces Disney+, Netflix, contains 100+ Archived DVDs and BDs)
       - Movies
-      - Series
+      - TV-Shows
+      - Music
+      - Videos
+      - Pictures
     - [**Heimdall**](https://heimdall.site/) [(Source Code)](https://github.com/linuxserver/Heimdall) (Dashboard, Replaces Google/Firefox default screen)
     - [**Nginx Proxy Manager**](https://nginxproxymanager.com/) [(Source Code)](https://github.com/NginxProxyManager/nginx-proxy-manager) (Reverse Proxy, enables SSL for all apps)
     - [**SuiteCRM**](https://suitecrm.com/) [(Source Code)](https://github.com/salesagility/SuiteCRM) (Customer relationship management software)
@@ -36,6 +54,7 @@ Intel Xeon, 4 cores, 16 GB RAM, 8 TB WD RED HDD Raid 1, 2x 250GB SSDs @ Raid 1
       - [**Influxdb**](https://www.influxdata.com/products/influxdb/) [(Source Code)](https://github.com/influxdata/influxdb) (fast and versatile database)
       - [**Grafana**](https://grafana.com/) [(Source Code)](https://github.com/grafana/grafana) (shows beautiful graphs)
     - [**Forgejo**](https://forgejo.org/) [(Source Code)](https://codeberg.org/forgejo/forgejo) (github alternative - federation being tested)
+    - [**Dolibarr**](https://www.dolibarr.org/) [(Source Code)](https://www.github.com/dolibarr) (Probably the best FOSS ERP/CRM out there. Module based functions which makes it nimble and highly adaptable.)
 ## Online/Remote
 ### Minecraft Server (Java IP: server.gifted-minecraft.com)
   - Server Software: [**PaperMC**](https://papermc.io/) [(Source Code)](https://github.com/PaperMC)
