@@ -5,21 +5,80 @@ The idea of my Setup is to make myself independent of a working internet connect
 
 Feel free to contact me on matrix (@haui:matrix.giftedmc.com) or on mastodon (@haui@mastodon.giftedmc.com) if you have further questions or need help with your setup.
 
-## Home Network
-### "PiTV" 
-[**RaspberryPi 4**](https://www.raspberrypi.com/), replaces appleTV
+## Homelab (Development stuff)
 
-| Hardware  |                                 |
+### ARM Dev machine
+Runs a variety of OSs, exchanged by switching out SD Cards. Most prominent are raspberrypiOS, postmarketOS, alpine linux.
+
+| [**RaspberryPi 4**](https://www.raspberrypi.com/)  |                                 |
+|-----------|---------------------------------|
+| Processor | Quad-core ARM Cortex-A72 @ 1.5 GHz |
+| RAM       | 8 GB DDR 4                     |
+| Data1     | * GB SD Card     |
+
+### RISC-V Dev Machine
+
+|Banana Pi F3 (RISC-V)| |
+|-----------|---------------------------------|
+| Processor | Spacemit k1 8x X60-Cores @ 1.6 Ghz |
+| RAM       | 4 GB DDR 4                     |
+| Data1     | * GB SD Card     |
+| On Board Storage | 16 GB emmc|
+
+### RISC-V Dev Tablet
+
+|Deepcomputing DC ROMA PAD II (RISC-V)| |
+|-----------|---------------------------------|
+| Processor | Spacemit k1 8x X60-Cores @ 1.6 Ghz |
+| RAM       | 8 GB DDR 4                     |
+| Data1     | * GB SD Card     |
+| On Board Storage | 128 GB emmc|
+
+### Apple hacking device
+2x ipad 3, both running ios 9.3.6, one jailbroken one vanilla. They are to be ported to postmarketOS soon.
+
+| iPad3 | |
+|-----------|---------------------------------|
+| Processor | ARM Cortex A9X (32 bit) |
+| RAM       | 1 GB LPDDR2 400 MHz                     |
+| On Board Storage | 16 GB |
+
+### RISC-V Microcontroller
+|Xiao ESP32C3| |
+|------------|--------------------------------|
+| Processor | ESP32-C3 32-bit RISC-V @160MHz |
+| RAM       | 400KB SRAM |
+| Storage   | 4MB onboard Flash |
+
+### Low level dev board
+
+
+| Arduino uno | |
+|-----------|---------------------------------|
+| Processor | Microchip AVR (8-bit) at 16 MHz |
+| RAM       | 2 KB SRAM                     |
+| Storage   | 32 KB Flash   |
+
+## Home (Production) Network
+### 2x "PiTV" (Livingroom and Bedroom TV) 
+replaces appleTV
+
+| [**RaspberryPi 4**](https://www.raspberrypi.com/) | |
 |-----------|---------------------------------|
 | Processor | Quad-core ARM Cortex-A72 @ 1.5 GHz |
 | RAM       | 4 GB DDR 4                     |
 | Data1     | 16 GB SD Card     |
 
-- [**LibeELEC**](https://libreelec.tv/) ([Source Code](https://github.com/LibreELEC/LibreELEC.tv/)) (lightweight OS that only houses kodi)
+- [**LibeELEC**](https://libreelec.tv/) [<sup>Source Code</sup>](https://github.com/LibreELEC/LibreELEC.tv/) (lightweight OS that only houses kodi)
   - [**Kodi**](https://kodi.tv/) ([Source Code](https://github.com/xbmc/xbmc)) (media client/server with muliple purposes)
     - **Next Gen Peertube app** ([Source Code](https://github.com/Haui1112/plugin.video.pt)) (A peertube client for kodi which i built myself in lieu of a supported version.)
+    - **Youtube App** (Includes Ad-block)
+    - **Twitch App** (Includes Ad-mute and -splashscreen)
+    - **Composite** (Plex App, the official one stopped working, this works well)
+    - **Chaostube** (Youtube like app for the chaos computer club "ccc" media server. media.ccc.de)
+
 ### Home Server 
-| Hardware  |                                 |
+| Terra Miniserver | |
 |-----------|---------------------------------|
 | Processor | Intel Xeon (4 cores, 4 threads) |
 | RAM       | 16 GB DDR 3                     |
@@ -77,5 +136,5 @@ Feel free to contact me on matrix (@haui:matrix.giftedmc.com) or on mastodon (@h
       - [**Telegraf**](https://www.influxdata.com/time-series-platform/telegraf/) [(Source Code)](https://github.com/influxdata/telegraf) (collects data from any source)
       - [**Influxdb**](https://www.influxdata.com/products/influxdb/) [(Source Code)](https://github.com/influxdata/influxdb) (fast and versatile database)
       - [**Grafana**](https://grafana.com/) [(Source Code)](https://github.com/grafana/grafana) (shows beautiful graphs)
-    - Uptime Kuma [(Source Code)]() (**public**, uptime monitor)
+    - [**Uptime Kuma**](https://uptime.kuma.pet/) [(Source Code)](https://github.com/louislam/uptime-kuma) (**public**, uptime monitor)
 ### Cloud Backup 
